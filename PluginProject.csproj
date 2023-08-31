@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <ProjectName>HS2_PluginTemplate</ProjectName>
+    <ProjectName>HS2_MyOwnPerfectHLife</ProjectName>
     <GameName>HoneySelect2</GameName>
-    <Description>Plugin Description...</Description>
+    <Description>Plugin for HoneySelect2. Provides with options of H life to fulfill your own preferences.</Description>
     <Version>0.0.1</Version>
     <Company>wad8989</Company>
   </PropertyGroup>

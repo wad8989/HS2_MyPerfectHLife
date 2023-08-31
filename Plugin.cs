@@ -11,7 +11,7 @@ using HarmonyLib;
 
 using UnityEngine;
 
-namespace HS2_PluginTemplate;
+namespace HS2_MyOwnPerfectHLife;
 
 [BepInProcess("HoneySelect2")]
 [BepInPlugin(GUID, NAME, VERSION)]
@@ -21,13 +21,13 @@ public class Plugin : BaseUnityPlugin
         /// Human-readable name of the plugin. In general, it should be short and concise.
         /// This is the name that is shown to the users who run BepInEx and to modders that inspect BepInEx logs. 
         /// </summary>
-        public const string NAME = "HoneySelect2:PluginTemplate";
+        public const string NAME = "HoneySelect2:MyOwnPerfectHLife";
         /// <summary>
         /// Unique ID of the plugin. Will be used as the default config file name.
         /// This must be a unique string that contains only characters a-z, 0-9 underscores (_) and dots (.)
         /// When creating Harmony patches or any persisting data, it's best to use this ID for easier identification.
         /// </summary>
-        public const string GUID = "com.wad8989.HS2.Template";
+        public const string GUID = "com.wad8989.HS2.MyOwnPerfectHLife";
 
         /// <summary>
         /// Version of the plugin. Must be in form <major>.<minor>.<build>.<revision>.
